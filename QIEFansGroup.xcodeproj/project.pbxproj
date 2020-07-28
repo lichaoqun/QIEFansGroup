@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2138A55BE66D13888F1E9DA0 /* Pods_QIEFansGroup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96BA9422C04C046BE5B09F74 /* Pods_QIEFansGroup.framework */; };
 		3472FEF624CFC3CC009E0F5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3472FEF524CFC3CC009E0F5F /* AppDelegate.m */; };
 		3472FEF924CFC3CC009E0F5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3472FEF824CFC3CC009E0F5F /* ViewController.m */; };
 		3472FEFB24CFC3D2009E0F5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3472FEFA24CFC3D2009E0F5F /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B7E7AE9D093CAD18C86D363 /* Pods-QIEFansGroup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QIEFansGroup.release.xcconfig"; path = "Target Support Files/Pods-QIEFansGroup/Pods-QIEFansGroup.release.xcconfig"; sourceTree = "<group>"; };
 		3472FEF124CFC3CC009E0F5F /* QIEFansGroup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QIEFansGroup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3472FEF424CFC3CC009E0F5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3472FEF524CFC3CC009E0F5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -25,6 +27,8 @@
 		3472FEFF24CFC3D2009E0F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3472FF0024CFC3D2009E0F5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3472FF0224CFC3D2009E0F5F /* QIEFansGroup.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QIEFansGroup.entitlements; sourceTree = "<group>"; };
+		96BA9422C04C046BE5B09F74 /* Pods_QIEFansGroup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QIEFansGroup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D460DBAB8C8D8F1C930F44 /* Pods-QIEFansGroup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QIEFansGroup.debug.xcconfig"; path = "Target Support Files/Pods-QIEFansGroup/Pods-QIEFansGroup.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2138A55BE66D13888F1E9DA0 /* Pods_QIEFansGroup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +48,8 @@
 			children = (
 				3472FEF324CFC3CC009E0F5F /* QIEFansGroup */,
 				3472FEF224CFC3CC009E0F5F /* Products */,
+				C08746E1EE9220BBBB495DF2 /* Pods */,
+				EC1E7602F82C08FE3D62F0A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +77,24 @@
 			path = QIEFansGroup;
 			sourceTree = "<group>";
 		};
+		C08746E1EE9220BBBB495DF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3D460DBAB8C8D8F1C930F44 /* Pods-QIEFansGroup.debug.xcconfig */,
+				1B7E7AE9D093CAD18C86D363 /* Pods-QIEFansGroup.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EC1E7602F82C08FE3D62F0A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96BA9422C04C046BE5B09F74 /* Pods_QIEFansGroup.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3472FF0524CFC3D2009E0F5F /* Build configuration list for PBXNativeTarget "QIEFansGroup" */;
 			buildPhases = (
+				F6700201D31CEA061B4E75BA /* [CP] Check Pods Manifest.lock */,
 				3472FEED24CFC3CC009E0F5F /* Sources */,
 				3472FEEE24CFC3CC009E0F5F /* Frameworks */,
 				3472FEEF24CFC3CC009E0F5F /* Resources */,
+				26633184EA4BA3F6742ACADE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +160,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26633184EA4BA3F6742ACADE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QIEFansGroup/Pods-QIEFansGroup-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QIEFansGroup/Pods-QIEFansGroup-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QIEFansGroup/Pods-QIEFansGroup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6700201D31CEA061B4E75BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QIEFansGroup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3472FEED24CFC3CC009E0F5F /* Sources */ = {
@@ -270,6 +339,7 @@
 		};
 		3472FF0624CFC3D2009E0F5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3D460DBAB8C8D8F1C930F44 /* Pods-QIEFansGroup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = QIEFansGroup/QIEFansGroup.entitlements;
@@ -287,6 +357,7 @@
 		};
 		3472FF0724CFC3D2009E0F5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B7E7AE9D093CAD18C86D363 /* Pods-QIEFansGroup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = QIEFansGroup/QIEFansGroup.entitlements;
